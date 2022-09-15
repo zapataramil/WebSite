@@ -1,0 +1,82 @@
+body{
+    background-color:grey;
+    font-family: 'roboto', sans-serif;
+}
+
+h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+}
+
+div h2{
+    color: aqua;
+    text-align: left;
+}
+
+/* ID's y Classes */
+/* ID's son unicos por elemento (para insertar un ID se usa(#nombre-deID))*/
+/* las Classes son repetibles (para insertar un Class se usa(.nombre-deClass))*/
+
+#special-line{
+    font-size: 15px;
+    color: blue;
+}
+
+.paragraph{
+    color: purple;
+    font-style: italic;
+}
+
+/* (display block) ordenados por bloques (uno por encima del otro)
+   (display inline) ordenados por linea (uno de lado del otro)*/
+
+a, img{
+    display: block;
+}
+
+/* margin (1er margen vertical, segundo margen horizontal)*/
+
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* a(:hover) cambia caracteristicas de el/los link */
+a:hover{
+    color: aqua;
+}
+
+/*imagenes centradas(margin:auto;) porcentaje de ocupacion de la foto(width:70%;)*/
+img{
+    width: 50%;
+    margin: auto;
+}
+
+
+/* centrado de contenedor(justify-content: center;) (centrado eje principal 'X'))*/
+/*                       (align-items: center;)     (centrado eje vertical 'Y'))*/
+/* (flex-direction: column;) alinea el titulo del contenedor con el texto o parrafo en forma de columna*/
+
+.container{
+    background-color: darkcyan;
+    height: 50vh;
+    margin: 10%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-p{
+    width: 40%;
+}
+
+
+
